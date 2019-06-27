@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Graphik-Regular";
+    src: url("webfont/Graphik-Regular.eot");
+    src: 
+    url("webfont/Graphik-Regular.woff") format("woff"),
+    url("webfont/Graphik-Regular.ttf") format("opentype"),
+    url("webfont/Graphik-Regular.svg") format("svg");
+}
+body {
+    font-family: Graphik-Regular!important;
+}
+.navbar {
+    background: #202731;
+}
+.navbar .container-fluid {
+    width: 92%;
+}
+nav ul li a {
+    opacity: 0.78;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.navbar .navbar-nav .nav-link {
+    padding-left: 30px;
+    padding-right: 30px;  
+}
+.navbar .btn {
+    margin-left: 10px;
+    font-size: 16px;
+}
+.btn.btn-info.btn-login {
+    background: #fff;
+    color: #202731;
+    padding: 10px 40px;
+    border-color: #fff;
+}
+.btn.btn-info.btn-create {
+    color: #221400;
+    background: #ffba00;
+    border-color: #ffba00;
+    padding: 10px 20px;
+}
+
+/* about */
+#savings-wrapper {
+    /*background: url(./../images/about.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background: #f27c36;
+    padding: 50px 0;
+}
+.container-fluid {
+    width: 90%;
+}
+#savings-wrapper h2 {
+    width: 85%;
+    font-size: 60px;
+    font-weight: 600;
+    color: #18100d;
+}
+#savings-wrapper p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+#savings-wrapper h6 {
+    opacity: 0.68;
+    font-weight: lighter;
+}
+#savings-wrapper h5 {
+    width: 35%;
+    margin-top: 35px;
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: -10px;
+}
+#savings-wrapper h5 span {
+    color: #fdbb03;
+}
+.savings-list {
+    padding: 60px 0;
+    background: #fafafc;
+}
+.savings-box {
+    /*height: 200px;*/
+    background: #fff;
+    padding: 30px 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+.savings-box h5 {
+    color: #202731;
+}
+.savings-box p {
+    width: 75%;
+    color: #7f8082;
+}
+.p-2 {
+    padding: 1rem 3.5rem 1rem 0!important;
+}
+.steps {
+    padding: 150px 0 60px 0;
+}
+.createaccount {
+    background: #fff;
+    padding: 20px 30px 20px 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+.createaccount.step-one {
+    margin: 10px 40px;
+}
+.steps-wrapper {
+    width: 50px;
+    height: 50px;
+    color: #ffcf53;
+    border: 1px solid #ffcf53;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 7px;
+}
+p {
+    margin-bottom: 0;
+}
+.createaccount.step-one.one .steps-wrapper {
+    background: #ffcf53;
+    color: #fff;
+}
+.guide-wrapper {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.guide-wrapper h3 {
+    font-weight: bold;
+}
+.guide-wrapper p {
+    margin-top: 30px;
+    width: 80%;
+    margin-bottom: 40px;
+}
+.guide-wrapper a.btn.btn-info.btn-create {
+    font-weight: bold;
+    padding: 10px 40px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
