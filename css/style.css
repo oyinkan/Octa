@@ -146,6 +146,77 @@ p {
     font-weight: bold;
     padding: 10px 40px;
 }
-.mt-10 {
+#octa-advantage {
+    background: #0d1730;
+    padding: 50px 0 150px 0;
+    color: #fff;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+#octa-advantage h3 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+#octa-advantage p {
+    width: 88%;
+    font-size: 14px;
+    opacity: 0.4;
     margin-top: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.ft-22 {
+    font-size: 22px;
+}
+.testimonial-wrapper {
+    background: #fff;
+    padding: 10px;
+    margin-top: -80px;
+    border-radius: 6px;
+}
+.testimonial-wrapper {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    color: #221400;
+}
+.testimonial-wrapper a {
+    font-size: 20px;
+    color: #05abe5;
+    font-weight: bold;
+}
+.testimonial-wrapper h5 {
+    padding-top: 40px;
+    width: 68%;
+}
+.testimonial-wrapper h6 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.testimonial-wrapper p {
+    opacity: 0.4;
+    margin-top: -10px;
+}
+footer {
+    padding: 60px 0 40px 0;
+}
+footer .logo {
+    margin-bottom: 20px;
+}
+footer .personal {
+    width: 90%;
+    padding-bottom: 50px;
+}
+footer hr {
+    border-color: #858587;
+}
+footer h6 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+footer p a,
+footer p {
+    color: #858587;
 }
