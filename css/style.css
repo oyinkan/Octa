@@ -16,10 +16,9 @@ body {
     width: 92%;
 }
 nav ul li a {
-    opacity: 0.78;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
     color: #fff;
+    opacity: 0.58;
 }
 .navbar .navbar-nav .nav-link {
     padding-left: 30px;
@@ -31,72 +30,98 @@ nav ul li a {
 }
 .btn.btn-info.btn-login {
     background: #fff;
-    color: #202731;
     padding: 10px 40px;
-    border-color: #fff;
+    border-radius: 4px;
+    border: 0.5px solid #dce1e7;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.29;
+    color: #2c3f58;
 }
 .btn.btn-info.btn-create {
-    color: #221400;
-    background: #ffba00;
-    border-color: #ffba00;
+    border-color: #ffba02;
     padding: 10px 20px;
+    border-radius: 3.6px;
+    background-color: #ffba02;
+    font-size: 16.2px;
+    font-weight: 500;
+    color: #212731;
 }
 
 /* about */
 #savings-wrapper {
-    /*background: url(./../images/about.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    background: #f27c36;
-    padding: 50px 0;
+    padding: 70px 0 0 0;
+    margin-bottom: -72px;
 }
 .container-fluid {
     width: 90%;
 }
 #savings-wrapper h2 {
-    width: 85%;
-    font-size: 60px;
+    width: 90%;
+    font-size: 64px;
     font-weight: 600;
-    color: #18100d;
+  /*font-family: Graphik-Semibold;*/
+    line-height: 1.17;
+    color: #190f0c;
+    margin-top: 30px;
 }
 #savings-wrapper p {
     font-size: 20px;
-    font-weight: normal;
     line-height: 1.6;
-    margin-top: 20px;
+    margin-top: 30px;
+    line-height: 1.75;
+    color: #212731;
 }
-#savings-wrapper h6 {
-    opacity: 0.68;
-    font-weight: lighter;
+#savings-wrapper a img {
+    margin-top: 10px;
+    margin-right: 15px;
 }
-#savings-wrapper h5 {
-    width: 35%;
-    margin-top: 35px;
-    font-size: 35px;
-    font-weight: 500;
-    margin-left: -10px;
+.mt-30 {
+    margin-top: 30px;
 }
-#savings-wrapper h5 span {
-    color: #fdbb03;
+.relative-position {
+    position: relative;
+}
+.save-image {
+    position: absolute;
+    bottom: 75px;
+    left: 84px;
+}
+.iphone-image {
+    position: relative;
+    top: -75px;
+    right: 28%;
 }
 .savings-list {
     padding: 60px 0;
-    background: #fafafc;
+    background-image: linear-gradient(177deg, #ffffff, #fcfcfd);
+    color: #212731;
+}
+.savings-list h3 {
+    font-size: 56px;
+    font-weight: normal;
+    line-height: 1.18;
 }
 .savings-box {
-    /*height: 200px;*/
     background: #fff;
     padding: 30px 20px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     margin-top: 40px;
+    border-radius: 3px;
+    box-shadow: 0 20px 25px 0 rgba(178, 178, 178, 0.16)!important;
+}
+.savings-box img {
+    margin-bottom: 30px;
 }
 .savings-box h5 {
-    color: #202731;
+    font-size: 20px;
+    font-weight: 500;
 }
 .savings-box p {
     width: 75%;
-    color: #7f8082;
+    opacity: 0.61;
+    font-size: 18px;
+    line-height: 1.33;
+    margin-top: 20px;
 }
 .p-2 {
     padding: 1rem 3.5rem 1rem 0!important;
