@@ -199,8 +199,26 @@ p {
     opacity: 0.4;
     margin-top: -10px;
 }
+.testimonial-wrapper p.carousel-count {
+    padding-top: 140px;
+    padding-bottom: 20px;
+    opacity: 1;
+    font-weight: 600;
+}
+.controls-div {
+    position: absolute;
+    right: 35%;
+    bottom: 17px;
+}
+.controls-div a {
+    color: #221400;
+}
+.controls-div a i.fa-angle-right {
+    background: #ffc001;
+    padding: 10px 15px;
+}
 footer {
-    padding: 60px 0 40px 0;
+    padding: 80px 0 20px 0;
 }
 footer .logo {
     margin-bottom: 20px;
@@ -219,4 +237,9 @@ footer h6 {
 footer p a,
 footer p {
     color: #858587;
+}
+footer a i {
+    color: #7a7a7c;
+    font-size: 16px;
+    margin-left: 10px;
 }
