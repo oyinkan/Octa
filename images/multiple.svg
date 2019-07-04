@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="458" viewBox="0 0 1440 458">
+    <defs>
+        <radialGradient id="a" cx="74.41%" r="94.966%" fx="74.41%" fy="50%" gradientTransform="matrix(-.31761 0 0 -.82237 .98 .911)">
+            <stop offset="0%" stop-color="#283951"/>
+            <stop offset="100%" stop-color="#0B192C"/>
+            <stop offset="100%" stop-color="#0A182B"/>
+        </radialGradient>
+    </defs>
+    <path fill="url(#a)" fill-rule="evenodd" d="M0 1672h1442v458H0v-264.534z" transform="translate(0 -1672)"/>
+</svg>
