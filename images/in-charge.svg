@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47">
     <g fill="none" fill-rule="evenodd">
-        <circle cx="32" cy="32" r="32" fill="#FFBA02"/>
-        <g transform="translate(13 13)">
-            <path d="M0 0h38v38H0z"/>
-            <rect width="15.833" height="19" x="3.167" y="3.167" fill="#232864" opacity=".3" rx="2"/>
-            <path fill="#25294A" d="M5.167 9.5h27.666a2 2 0 0 1 2 2v21.333a2 2 0 0 1-2 2H5.167a2 2 0 0 1-2-2V11.5a2 2 0 0 1 2-2zM28.5 25.333a3.167 3.167 0 1 0 0-6.333 3.167 3.167 0 0 0 0 6.333z"/>
+        <circle cx="23.338" cy="23.338" r="23.338" fill="#FFBA02"/>
+        <g transform="translate(9.481 9.487)">
+            <path d="M0 0h28.817v28.817H0z"/>
+            <rect width="12.007" height="14.408" x="2.401" y="2.401" fill="#232864" opacity=".3" rx="1.458"/>
+            <path fill="#25294A" d="M3.86 7.204h21.098c.805 0 1.458.653 1.458 1.458v16.296c0 .805-.653 1.458-1.458 1.458H3.859a1.458 1.458 0 0 1-1.458-1.458V8.662c0-.805.653-1.458 1.458-1.458zm17.753 12.007a2.401 2.401 0 1 0 0-4.803 2.401 2.401 0 0 0 0 4.803z"/>
         </g>
     </g>
 </svg>

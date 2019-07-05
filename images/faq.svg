@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+    <g fill="none" fill-rule="evenodd" transform="translate(.5 .35)">
+        <circle cx="16.625" cy="16.625" r="16.625" fill="#202020"/>
+        <text fill="#FFF" font-family="Avenir-Heavy, Avenir" font-size="15.2" font-weight="600">
+            <tspan x="12.681" y="21.65">?</tspan>
+        </text>
+    </g>
+</svg>
