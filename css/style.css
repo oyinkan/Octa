@@ -498,3 +498,76 @@ footer a i {
     display: none;
     margin-top: 13px;
 }
+
+
+/* contact page */
+#contact {
+    background: url(./../images/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    color: #212731;
+}
+#contact h5 {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 0.97;
+    margin-bottom: -5px;
+}
+#contact p {
+    font-size: 24px;
+    line-height: 2.58;
+}
+.mt-70 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.contact-box {
+    padding: 80px 0 60px 0;
+    color: #000
+}
+.contact-box label {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: 0.82px;
+    text-transform: uppercase;
+}
+.contact-box input {
+    height: 53px;
+}
+.contact-box .form-control {
+    border: solid 0.5px #eaeaea;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+.btn.btn-info.btn-send {
+    background-color: #ffba02;
+    border-color: #ffba02;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.44;
+    color: #212731;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.contact-box h6 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: 0.82px;
+}
+.contact-box p {
+    font-size: 16px;
+    line-height: 1.63;
+}
+.contact-box p a {
+    color: #000;
+}
+.mt-90 {
+    margin-top: 90px;
+} 
+.mt-15 {
+    margin-top: 15px;
+}
