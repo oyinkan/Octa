@@ -21,7 +21,7 @@
     .about h2 {
         font-size: 50px;
     }
-    panel-title > a {
+    .panel-title > a {
         font-size: 16px;
     }
     .panel-body {
