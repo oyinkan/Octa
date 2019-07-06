@@ -28,17 +28,6 @@
         font-size: 15px;
         width: 95%;
     }
-    .question h5 {
-        font-size: 34px;
-    }
-    .btn.btn-info.btn-options,
-    .btn.btn-info.btn-next {
-        font-size: 24px;
-    }
-    .question p {
-        font-size: 18px;
-        padding-bottom: 30px;
-    }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .savings-box {
@@ -79,6 +68,17 @@
     }
     .question {
         width: 90%;
+    }
+    .question h5 {
+        font-size: 34px;
+    }
+    .btn.btn-info.btn-options,
+    .btn.btn-info.btn-next {
+        font-size: 24px;
+    }
+    .question p {
+        font-size: 18px;
+        padding-bottom: 30px;
     }
 }
 @media screen and (max-width: 850px) {
