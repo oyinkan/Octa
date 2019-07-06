@@ -67,6 +67,9 @@
     #savings-wrapper h2 {
         font-size: 50px;
     }
+    .signin-details {
+        width: auto;
+    }
 }
 @media screen and (min-width: 770px) and (max-width: 1200px) {
     #savings-wrapper {
@@ -97,6 +100,9 @@
     .ml--35 {
         margin-left: -10px;
     }
+    .signin-details {
+        width: auto;
+    }
 }
 /*@media screen and (min-width: 770px) and (max-width: 1355px) {
     .save-image {
@@ -114,6 +120,9 @@
     }
     #savings-wrapper p {
         width: 90%;
+    }
+    .signin-details h6 {
+        width: auto;
     }
 }
 

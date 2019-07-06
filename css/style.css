@@ -577,10 +577,13 @@ footer a i {
     background: url(./../images/quiz.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px 0 60px 35px;
+    padding: 100px 0 60px 70px;
     color: #0a182b;
 } 
-.quiz-div .col-lg-5.col-md-5 {
+.quiz-div .row {
+    margin-right: 0;
+}
+.quiz-div .col-lg-5.col-md-6 {
     padding-right: 0;
     padding-left: 0;
 }
@@ -620,3 +623,179 @@ footer a i {
     line-height: 1.4;
     margin-bottom: 35px;
 } 
+.quiz img {
+    margin-bottom: 10px;
+}
+.question {
+    padding-left: 60px; 
+    padding-top: 60px; 
+    width: 70%;
+}
+.question h6 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffba02;
+    margin-bottom: 35px;
+}
+.question h5 {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.26;
+    letter-spacing: normal;
+    color: #0a182b;
+    margin-bottom: 30px;
+}
+.btn.btn-info.btn-options {
+    background: transparent;
+    opacity: 0.3;
+    border-radius: 14px;
+    border: solid 0.9px #0a182b;
+    opacity: 0.8;
+    font-size: 28px;
+    color: #0a182b;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.btn.btn-info.btn-next {
+    width: 100%;
+    border-radius: 14.4px;
+    border-color: #ffba02; 
+    background-color: #ffba02;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 10px 0;
+    color: #0a182b;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.question p {
+    opacity: 0.5;
+    font-size: 21.6px;
+    text-align: center;
+    color: #0a182b;
+}
+.btn.btn-info.btn-options.option-picked {
+    background-color: #0a182b;
+    color: #ffba02;
+}
+.previous {
+    float: right;
+    margin-top: -60px;
+    opacity: 0.51;
+    font-size: 18px;
+    color: #0a182b;
+}
+
+/* signup page */
+.signup-wrapper {
+    background: url(./../images/signup.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.signup-div {
+    background-image: radial-gradient(circle at 50% 0, #212731, #111928);
+    padding: 30px 0 70px 60px;
+    color: #fff;
+}
+.signup-div .signup-details {
+    width: 85%;
+}
+.signup-details h6 {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 1.26;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.signup-details p {
+    width: 75%;
+    opacity: 0.9;
+    font-size: 26px;
+    line-height: 1.31;
+    margin-bottom: 50px;
+}
+.signup-details label {
+    font-size: 22px;
+    font-weight: 500;
+}
+.signup-details input {
+    border-radius: 3.6px;
+    border: solid 0.6px #c4ccd7;
+    height: 58.8px;
+    background: transparent;
+}
+.signup-details .form-group {
+    margin-top: 30px;
+}
+.signup-details input:hover {
+    border: solid 0.5px #ffba02;
+}
+.signup-details .btn.btn-info.btn-next {
+    height: 62px;
+    border-radius: 6px;
+    border-color: #ffba02;
+    background-color: #ffba02;
+    font-size: 25.2px;
+    font-weight: 500;
+    color: #212731;
+}
+.signup-details span {
+  font-size: 24px;
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.signup-details span a {
+  font-weight: 500;
+  color: #ffba02;
+}
+.signup-div hr {
+    height: 0.5px;
+    opacity: 0.23;
+    border: solid 0.5px #979797;
+    margin-right: -60px;
+    margin-left: -40px;
+}
+.signup-getapp {
+    padding-top: 40px;
+}
+.signup-getapp h6 {
+    font-size: 43.2px;
+    font-weight: 600;
+    line-height: 1.35;
+}
+.signup-getapp p {
+    opacity: 0.6;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+p.start {
+    width: 70%;
+}
+.signup-details a.forgot {
+    float: right;
+    opacity: 0.6;
+    font-size: 14px;
+    margin-top: -5px;
+    color: #fff;
+}
+.signup-details .btn.btn-info.btn-next.button-signin {
+    width: auto;
+    padding: 10px 30px;
+}
+.signin-details {
+    width: 70%;
+}
+.signin-details h6 {
+    width: 80%;
+}
+.signup-wrapper.signin {
+    background: url(./../images/signin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+a:hover {
+    text-decoration: none;
+}
