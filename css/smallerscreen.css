@@ -28,14 +28,17 @@
         font-size: 15px;
         width: 95%;
     }
-}
-@media screen and (min-width: 576px) and (max-width: 767px) {
-    .savings-box {
-        height: 350px!important;
+    .question h5 {
+        font-size: 30px;
     }
     .previous {
         float: left;
         margin-top: -39px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .savings-box {
+        height: 350px!important;
     }
 }
 @media screen and (max-width: 768px) {
