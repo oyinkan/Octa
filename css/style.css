@@ -571,3 +571,52 @@ footer a i {
 .mt-15 {
     margin-top: 15px;
 }
+
+/* quiz page */
+.quiz {
+    background: url(./../images/quiz.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 60px 35px;
+    color: #0a182b;
+} 
+.quiz-div .col-lg-5.col-md-5 {
+    padding-right: 0;
+    padding-left: 0;
+}
+.badge {
+    border-radius: 10.4px;
+    background-color: #0a182b;
+    font-size: 14.4px;
+    font-weight: 500;
+    color: #ffba02;
+    padding: .25em 0.8em;
+}
+.quiz h4 {
+    width: 85%;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 1.17;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.quiz h6 {
+    width: 95%;
+    opacity: 0.57;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.33;
+}
+.quiz h5 {
+    margin-top: 120px;
+    font-size: 43.2px;
+    font-weight: 600;
+    line-height: 1.35;
+}
+.quiz p {
+    width: 60%;
+    opacity: 0.6;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 35px;
+} 
