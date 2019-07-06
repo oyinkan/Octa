@@ -62,6 +62,9 @@
     .mt-60 {
         margin-top: 30px;
     }
+    .question {
+        width: 90%;
+    }
 }
 @media screen and (max-width: 850px) {
     #savings-wrapper h2 {
