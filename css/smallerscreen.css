@@ -37,6 +37,7 @@
     }
     .question p {
         font-size: 18px;
+        padding-bottom: 30px;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
