@@ -459,9 +459,10 @@ footer a i {
 }
 
 /* FAQ page */
-.panel-default > .panel-heading {
+.panel-default {
     box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
+    margin-bottom: 10px;
 }
 .panel-title {
     padding: 7px 20px;
