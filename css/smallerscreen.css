@@ -59,6 +59,13 @@
     .signin-details h6 {
         width: auto;
     }
+    .btn.btn-options {
+        font-size: 20px;
+    }
+    .btn.btn-options i {
+        right: 10px;
+        top: 15px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .savings-box {
@@ -166,6 +173,13 @@
     }
     .signin-details {
         width: auto;
+    }
+    .btn.btn-options {
+        font-size: 20px;
+    }
+    .btn.btn-options i {
+        right: 5px;
+        top: 15px;
     }
 }
 /*@media screen and (min-width: 770px) and (max-width: 1355px) {
