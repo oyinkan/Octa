@@ -20,3 +20,13 @@ $("#carouselExample").on("slide.bs.carousel", function(e) {
     }
   }
 });
+
+
+/* for quiz page */
+
+$(function(){
+  $(".btn.btn-options").click(function(){
+    $(this).append("<i class='fa fa-check'></i>"); 
+    $(this).addClass('option-picked')
+  });
+});

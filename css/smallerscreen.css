@@ -4,6 +4,27 @@
         font-size: 40px!important;
     }
 }
+@media screen and (max-width: 470px) {
+    .signup-div .signup-details {
+        width: 75%;
+    }
+    .signup-details p {
+        width: auto;
+        font-size: 22px;
+    }
+    .signup-details label,
+    .signup-details input {
+        font-size: 19px;
+    }
+    .signup-details .btn.btn-next,
+    .signup-details span {
+        font-size: 22px;
+        height: auto;
+    }
+    .signup-getapp h6 {
+        font-size: 40px;
+    }
+}
 @media screen and (max-width: 575px) {
     .savings-box {
         height: 290px!important;
@@ -83,6 +104,22 @@
         font-size: 18px;
         padding-bottom: 30px;
     }
+    .success-div {
+        width: 90%;
+    }
+    .success-div h6 {
+        font-size: 35px;
+    }
+    .success-div p {
+        width: 90%;
+        font-size: 18px;
+    }
+    .btn.btn-download {
+        font-size: 18px;
+    }
+    .btn.btn-share {
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 850px) {
     #savings-wrapper h2 {
@@ -90,6 +127,9 @@
     }
     .signin-details {
         width: auto;
+    }
+    .signup-div .signup-details {
+        width: 80%;
     }
 }
 @media screen and (min-width: 770px) and (max-width: 1200px) {

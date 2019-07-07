@@ -37,7 +37,7 @@ nav ul li a {
     margin-left: 10px;
     font-size: 16px;
 }
-.btn.btn-info.btn-login {
+.btn.btn-login {
     background: #fff;
     padding: 10px 40px;
     border-radius: 4px;
@@ -47,7 +47,7 @@ nav ul li a {
     line-height: 1.29;
     color: #2c3f58;
 }
-.btn.btn-info.btn-create {
+.btn.btn-create {
     border-color: #ffba02;
     padding: 10px 20px;
     border-radius: 3.6px;
@@ -541,7 +541,7 @@ footer a i {
     padding-left: 20px;
     padding-top: 3px;
 }
-.btn.btn-info.btn-send {
+.btn.btn-send {
     background-color: #ffba02;
     border-color: #ffba02;
     font-size: 18px;
@@ -645,7 +645,7 @@ footer a i {
     color: #0a182b;
     margin-bottom: 30px;
 }
-.btn.btn-info.btn-options {
+.btn.btn-options {
     background: transparent;
     opacity: 0.3;
     border-radius: 14px;
@@ -656,8 +656,14 @@ footer a i {
     width: 100%;
     padding: 10px 0;
     margin-bottom: 10px;
+    position: relative;
 }
-.btn.btn-info.btn-next {
+.btn.btn-options i {
+    position: absolute;
+    right: 25px;
+    top: 18px;
+}
+.btn.btn-next {
     width: 100%;
     border-radius: 14.4px;
     border-color: #ffba02; 
@@ -675,9 +681,10 @@ footer a i {
     text-align: center;
     color: #0a182b;
 }
-.btn.btn-info.btn-options.option-picked {
+.btn.btn-options.option-picked {
     background-color: #0a182b;
     color: #ffba02;
+    opacity: 1;
 }
 .previous {
     float: right;
@@ -685,6 +692,12 @@ footer a i {
     opacity: 0.51;
     font-size: 18px;
     color: #0a182b;
+}
+.previous:hover {
+    color: #0a182b;
+}
+.previous i {
+    opacity: 0.51;
 }
 
 /* signup page */
@@ -719,19 +732,35 @@ footer a i {
     font-size: 22px;
     font-weight: 500;
 }
+.form-control:focus {
+    color: inherit;
+}
 .signup-details input {
     border-radius: 3.6px;
     border: solid 0.6px #c4ccd7;
     height: 58.8px;
     background: transparent;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 24px;
+}
+.signup-details input[type=checkbox] {
+    margin-top: -17px;
+}
+.signup-details input[type=checkbox]:checked + label {
+    background: #ffba02;
+}
+.signup-details input:focus {
+  border: solid 0.5px #ffba02;
+  background: transparent;
 }
 .signup-details .form-group {
     margin-top: 30px;
 }
-.signup-details input:hover {
+/*.signup-details input:hover {
     border: solid 0.5px #ffba02;
-}
-.signup-details .btn.btn-info.btn-next {
+}*/
+.signup-details .btn.btn-next {
     height: 62px;
     border-radius: 6px;
     border-color: #ffba02;
@@ -781,7 +810,7 @@ p.start {
     margin-top: -5px;
     color: #fff;
 }
-.signup-details .btn.btn-info.btn-next.button-signin {
+.signup-details .btn.btn-next.button-signin {
     width: auto;
     padding: 10px 30px;
 }
@@ -798,4 +827,56 @@ p.start {
 }
 a:hover {
     text-decoration: none;
+}
+
+/* success page */
+.success-div {
+    width: 58.5%;
+    padding-bottom: 80px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    color: #0a182b;
+}
+.mt--150 {
+    margin-top: -150px;
+}
+.success-div h6 {
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.success-div p {
+    width: 35%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.success-div p span {
+    font-weight: 600;
+    color: #0daa52;
+}
+.btn.btn-download {
+    padding: 10px 25px;
+    border-radius: 120px;
+    border-color: #ffba02;
+    background-color: #ffba02;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0a182b;
+    margin-top: 60px;
+}
+.btn.btn-share {
+    border-radius: 120px;
+    border: solid 0.5px #0a182b;
+    font-size: 19.2px;
+    color: #0a182b;
+    background: transparent;
+    padding: 10px 95px;
+    margin-top: 15px;
+}
+.btn:focus,
+.form-control:focus {
+    box-shadow: none;
 }
