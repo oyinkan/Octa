@@ -66,6 +66,17 @@
         right: 10px;
         top: 15px;
     }
+    .terms h1 {
+        font-size: 45px;
+    }
+    .terms h3 {
+        font-size: 24px;
+    }
+    .terms h5,
+    .terms p,
+    .terms h6 {
+        font-size: 18px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .savings-box {

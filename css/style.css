@@ -880,3 +880,46 @@ a:hover {
 .form-control:focus {
     box-shadow: none;
 }
+
+/* terms page */
+.terms {
+    padding: 40px 0 20px 0;
+    color: #2b292d; 
+}
+.terms h1 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 1.04;
+    letter-spacing: -0.24px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.terms h3 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.terms h5,
+.terms p,
+.terms h6 {
+    font-size: 24px;
+    line-height: 1.42;
+    color: #2c3241;
+    margin-bottom: 15px;
+}
+.terms h5,
+.terms h6 {
+    font-weight: 600;
+}
+.terms h5 {
+    margin-top: 60px;
+}
+.terms h6 {
+    margin-top: 30px;
+}
+.terms p span {
+    display: block;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
