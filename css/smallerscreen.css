@@ -152,6 +152,9 @@
     .signup-div .signup-details {
         width: 80%;
     }
+    .navbar .navbar-nav .nav-link {
+        padding-left: 20px!important;
+    }
 }
 @media screen and (min-width: 770px) and (max-width: 1200px) {
     #savings-wrapper {
@@ -175,6 +178,13 @@
         height: 300px;
     }
 }
+@media screen and (min-width: 950px) and (max-width: 1100px) {
+    .navbar .navbar-nav .nav-link {
+        padding-left: 40px!important;
+        padding-right: 40px!important;  
+    }
+}
+
 @media screen and (min-width: 770px) and (max-width: 1100px) {
     /*.save-image {
         left: 55px;
