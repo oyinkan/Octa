@@ -6,6 +6,30 @@
     url("webfont/Graphik-Regular.ttf") format("opentype"),
     url("webfont/Graphik-Regular.svg") format("svg");
 }
+@font-face {
+    font-family: "Graphik-Bold";
+    src: url("webfont/Graphik-Bold.eot");
+    src: 
+    url("webfont/Graphik-Bold.woff") format("woff"),
+    url("webfont/Graphik-Bold.ttf") format("opentype"),
+    url("webfont/Graphik-Bold.svg") format("svg");
+}
+@font-face {
+    font-family: "Graphik-Semibold";
+    src: url("webfont/Graphik-Semibold.eot");
+    src: 
+    url("webfont/Graphik-Semibold.woff") format("woff"),
+    url("webfont/Graphik-Semibold.ttf") format("opentype"),
+    url("webfont/Graphik-Semibold.svg") format("svg");
+}
+@font-face {
+    font-family: "Graphik-Medium";
+    src: url("webfont/Graphik-Medium.eot");
+    src: 
+    url("webfont/Graphik-Medium.woff") format("woff"),
+    url("webfont/Graphik-Medium.ttf") format("opentype"),
+    url("webfont/Graphik-Medium.svg") format("svg");
+}
 body {
     font-family: Graphik-Regular!important;
 }
@@ -42,6 +66,7 @@ nav ul li a {
     font-size: 16px;
 }
 .btn.btn-login {
+    font-family: Graphik-Medium!important;
     background: #fff;
     padding: 10px 40px;
     border-radius: 4px;
@@ -52,6 +77,7 @@ nav ul li a {
     color: #2c3f58;
 }
 .btn.btn-create {
+    font-family: Graphik-Medium!important;
     border-color: #ffba02;
     padding: 10px 20px;
     border-radius: 3.6px;
@@ -398,6 +424,7 @@ footer hr {
     border-color: color: rgba(43, 41, 45, 0.1);
 }
 footer h6 {
+    font-family: Graphik-Medium!important;
     font-weight: 600;
     margin-bottom: 10px;
     font-size: 22px;
@@ -431,6 +458,7 @@ footer a i {
     padding: 80px 0 110px 0;
 }
 .about h2 {
+    font-family: Graphik-Semibold!important;
     font-size: 64px;
     font-weight: 600;
     color: #212731;
@@ -455,6 +483,7 @@ footer a i {
     margin-bottom: 20px;
 }
 .about-box p {
+    font-family: Graphik-Medium!important;
     font-size: 30px;
     font-weight: 500;
     text-align: center;
@@ -513,6 +542,7 @@ footer a i {
     color: #212731;
 }
 #contact h5 {
+    font-family: Graphik-Medium!important;
     font-size: 64px;
     font-weight: 500;
     line-height: 0.97;
@@ -531,6 +561,7 @@ footer a i {
     color: #000
 }
 .contact-box label {
+    font-family: Graphik-Semibold!important;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.29;
@@ -546,6 +577,7 @@ footer a i {
     padding-top: 3px;
 }
 .btn.btn-send {
+    font-family: Graphik-Semibold!important;
     background-color: #ffba02;
     border-color: #ffba02;
     font-size: 18px;
@@ -592,6 +624,7 @@ footer a i {
     padding-left: 0;
 }
 .badge {
+    font-family: Graphik-Medium!important;
     border-radius: 10.4px;
     background-color: #0a182b;
     font-size: 14.4px;
@@ -600,6 +633,7 @@ footer a i {
     padding: .25em 0.8em;
 }
 .quiz h4 {
+    font-family: Graphik-Semibold!important;
     width: 85%;
     font-size: 46px;
     font-weight: 600;
@@ -615,6 +649,7 @@ footer a i {
     line-height: 1.33;
 }
 .quiz h5 {
+    font-family: Graphik-Semibold!important;
     margin-top: 120px;
     font-size: 43.2px;
     font-weight: 600;
@@ -636,12 +671,14 @@ footer a i {
     width: 70%;
 }
 .question h6 {
+    font-family: Graphik-Medium!important;
     font-size: 28px;
     font-weight: 500;
     color: #ffba02;
     margin-bottom: 35px;
 }
 .question h5 {
+    font-family: Graphik-Medium!important;
     font-size: 38px;
     font-weight: 500;
     line-height: 1.26;
@@ -668,6 +705,7 @@ footer a i {
     top: 18px;
 }
 .btn.btn-next {
+    font-family: Graphik-Medium!important;
     width: 100%;
     border-radius: 14.4px;
     border-color: #ffba02; 
@@ -716,9 +754,10 @@ footer a i {
     color: #fff;
 }
 .signup-div .signup-details {
-    width: 85%;
+    width: 75%;
 }
 .signup-details h6 {
+    font-family: Graphik-Semibold!important;
     font-size: 46px;
     font-weight: 600;
     line-height: 1.26;
@@ -726,20 +765,28 @@ footer a i {
     margin-bottom: 25px;
 }
 .signup-details p {
-    width: 75%;
+    width: 85%;
     opacity: 0.9;
     font-size: 26px;
     line-height: 1.31;
     margin-bottom: 50px;
 }
 .signup-details label {
+    font-family: Graphik-Medium!important;
     font-size: 22px;
     font-weight: 500;
+    opacity: 0.6;
+}
+.signup-details label.signup-check {
+    opacity: 1;
+    font-size: 16px;
+    line-height: 1.63;
 }
 .form-control:focus {
     color: inherit;
 }
 .signup-details input {
+    font-family: Graphik-Medium!important;
     border-radius: 3.6px;
     border: solid 0.6px #c4ccd7;
     height: 58.8px;
@@ -765,6 +812,7 @@ footer a i {
     border: solid 0.5px #ffba02;
 }*/
 .signup-details .btn.btn-next {
+    font-family: Graphik-Medium!important;
     height: 62px;
     border-radius: 6px;
     border-color: #ffba02;
@@ -774,14 +822,15 @@ footer a i {
     color: #212731;
 }
 .signup-details span {
-  font-size: 24px;
-  display: block;
-  margin-top: 25px;
-  margin-bottom: 50px;
+    font-size: 24px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 .signup-details span a {
-  font-weight: 500;
-  color: #ffba02;
+    font-family: Graphik-Medium!important;
+    font-weight: 500;
+    color: #ffba02;
 }
 .signup-div hr {
     height: 0.5px;
@@ -794,6 +843,7 @@ footer a i {
     padding-top: 40px;
 }
 .signup-getapp h6 {
+    font-family: Graphik-Semibold!important;
     font-size: 43.2px;
     font-weight: 600;
     line-height: 1.35;
@@ -805,7 +855,7 @@ footer a i {
     margin-bottom: 10px;
 }
 p.start {
-    width: 70%;
+    width: 65%;
 }
 .signup-details a.forgot {
     float: right;
@@ -846,6 +896,7 @@ a:hover {
     margin-top: -150px;
 }
 .success-div h6 {
+    font-family: Graphik-Medium!important;
     font-size: 46px;
     font-weight: 500;
     margin-top: 30px;
@@ -858,10 +909,12 @@ a:hover {
 }
 
 .success-div p span {
+    font-family: Graphik-Semibold!important;
     font-weight: 600;
     color: #0daa52;
 }
 .btn.btn-download {
+    font-family: Graphik-Medium!important;
     padding: 10px 25px;
     border-radius: 120px;
     border-color: #ffba02;
@@ -891,6 +944,7 @@ a:hover {
     color: #2b292d; 
 }
 .terms h1 {
+    font-family: Graphik-Semibold!important;
     font-size: 54px;
     font-weight: 600;
     line-height: 1.04;
@@ -899,6 +953,7 @@ a:hover {
     padding-bottom: 40px;
 }
 .terms h3 {
+    font-family: Graphik-Bold!important;
     font-size: 28px;
     font-weight: bold;
     line-height: 1;
@@ -918,6 +973,7 @@ a:hover {
 }
 .terms h5 {
     margin-top: 60px;
+    font-family: Graphik-Semibold!important;
 }
 .terms h6 {
     margin-top: 30px;
