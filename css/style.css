@@ -506,6 +506,7 @@ footer a i {
     font-weight: normal;
     color: #202020;
     text-decoration: none;
+    position: relative;
 }
 .panel-title div {
     display: inline;
