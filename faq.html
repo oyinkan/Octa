@@ -22,6 +22,12 @@
         .about h2 {
             padding-bottom: 40px;
         }
+        .about h4 {
+            font-family: Graphik-Medium!important;
+            font-size: 30px;
+            color: #212731;
+            margin-bottom: 40px;
+        }
     </style>
 </head>
 <body> 
@@ -57,7 +63,8 @@
     <article>
         <section class="about">
             <div class="container-fluid">
-                <h2 class="text-center">Frequently Asked Questions</h2> 
+                <h2 class="text-center" id="test">Frequently Asked Questions</h2> 
+                <h4>About Octa/General</h4>
                 <div>  
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
@@ -341,6 +348,7 @@
                                 </div>
                             </div>
                         </div>
+                        <h4>Savings and Interest</h4>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTen">
                                 <h4 class="panel-title">
@@ -942,5 +950,41 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/accordion.js"></script>
+    <!-- <script src="js/jquery.bubble.text.js"></script> -->
+    <!--<script>
+        $(function() {
+
+    $('#test').fadeOut(1500, function() {
+        $(this).text('Some other text!').fadeIn(1500);
+        $(this).text('another text!').fadeOut(3000);
+    });
+});
+
+//     $(document).ready(function() {
+//     var $element = $('#test');
+//     var phrases = [
+//         'This is how bubbleText works.',
+//         'Animating each letter in a friendly way',
+//         'Thanks for seeing it :)',
+//         'It really matters to me ...',
+//         'Regards,',
+//         'Guedes, Washington L.',
+//     ];
+//     var index = -1;
+//     (function loopAnimation() {
+//         index = (index + 1) % phrases.length;
+//         bubbleText({
+//             element: $element,
+//             newText: phrases[index],
+//             letterSpeed: 70,
+//             callback: function() {
+//                 setTimeout(loopAnimation, 1000);
+//             },
+//         });
+//     })();
+// });
+
+// });
+    </script>
 </body>
 </html>
