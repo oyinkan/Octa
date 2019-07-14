@@ -508,21 +508,26 @@ footer a i {
     text-decoration: none;
     position: relative;
 }
-.panel-title div {
+/*.panel-title div.faq-panel {
     display: inline;
-}
+}*/
 .panel-title span {
     position: relative;
-    top: 1px;
-    margin-left: 10px;
+    top: 5px;
+    left: -40px;
 }
 .panel-body {
     opacity: 0.75;
     font-size: 18px;
     line-height: 1.56;
     color: #202020;
-    padding: 15px 0 30px 72px;
-    width: 70%;
+    padding: 15px 20px 30px 20px;
+    /*width: 70%;*/
+}
+.panel-text {
+    width: 93%;
+    position: relative;
+    left: -40px;
 }
 .more-less {
     float: right;

@@ -53,7 +53,7 @@
     }
     .panel-body {
         font-size: 15px;
-        width: 95%;
+        width: auto;
     }
     .question h5 {
         font-size: 30px;
@@ -150,6 +150,9 @@
     .btn.btn-share {
         font-size: 15px;
     }
+    .panel-text {
+        width: auto;
+    }
 }
 @media screen and (max-width: 850px) {
     #savings-wrapper h2 {
@@ -211,6 +214,10 @@
         right: 5px;
         top: 15px;
     }
+    .panel-title span,
+    .panel-text {
+        left: -10px;
+    }
 }
 /*@media screen and (min-width: 770px) and (max-width: 1355px) {
     .save-image {
@@ -231,6 +238,10 @@
     }
     .signin-details h6 {
         width: auto;
+    }
+    .panel-title span,
+    .panel-text {
+        left: -25px;
     }
 }
 
@@ -312,6 +323,25 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+    .panel-title span,
+    .panel-text {        
+        left: -10px;
+    }
+    /*.panel-title span {
+        top: 0;
+    }*/
+
+}
+@media screen and (min-width: 580px) and (max-width: 715px) {
+    .panel-title span,
+    .panel-text {        
+        left: -10px;
+    }
+    /*.panel-title span {
+        top: 0;
+    }*/
+}
 
 
 
