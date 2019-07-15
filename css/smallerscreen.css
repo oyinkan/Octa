@@ -91,6 +91,9 @@
     .savings-box {
         height: 350px!important;
     }
+    .no-show {
+        display: none;
+    }
 }
 @media screen and (max-width: 768px) {
     #savings-wrapper h5 {
@@ -152,6 +155,9 @@
     }
     .panel-text {
         width: auto;
+    }
+    .vision-div {
+        margin-top: 15px;
     }
 }
 @media screen and (max-width: 850px) {

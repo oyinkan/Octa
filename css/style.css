@@ -440,6 +440,7 @@ footer p a {
 footer p.copy {
     font-size: 14px;
     line-height: 1.57;
+    color: rgba(43, 41, 45, 0.6);
 }
 footer a i {
     margin-left: 10px;
@@ -470,12 +471,59 @@ footer a i {
     line-height: 1.42;
     color: #697381;
 }
+.mission-wrapper {
+    background-color: #f8f9fb;
+    padding: 50px 0;
+}
+.mission-wrapper h3 {   
+    font-family: Graphik-Medium;
+    font-size: 44px;
+    font-weight: 500;
+    color: #212731;
+}
+.mission-wrapper h5 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.33;
+    color: #697381;
+    margin-top: 15px;
+}
+.vision-div {
+    border-radius: 4.8px;
+    box-shadow: 0 10px 30px 0 #ebebeb;
+    background-color: #fff;
+    padding: 20px 35px 70px 20px;
+    color: #041428;
+}
+.vision-div h6 {
+    font-family: Graphik-Medium;
+    font-size: 28px;
+    font-weight: 500;   
+    padding-top: 70px;
+}
+.vision-div p {
+    opacity: 0.5;
+    line-height: 1.5;
+}
+.vision-div.mission {
+    padding: 20px 10px 45px 20px;
+}
+.mt-100 {
+    margin-top: 100px;
+}
 #motivation {
-    padding: 60px 0 20px 0;
+    padding: 60px 0;
+}
+#motivation h4 {
+    font-family: Graphik-Medium;
+    font-size: 40px;
+    font-weight: 500;
+}
+.mt-25 {
+    margin-top: 25px;
 }
 #motivation p {
-    width: 68%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .about-box {
     border-radius: 3px;

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="98.818%">
+            <stop offset="0%" stop-color="#FFBA02"/>
+            <stop offset="100%" stop-color="#F7B500"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FBF8F1"/>
+        </linearGradient>
+        <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset=".309%" stop-color="#96710E"/>
+            <stop offset="99.844%" stop-color="#FFBA02"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="36" cy="36" r="36" fill="url(#a)" fill-rule="nonzero"/>
+        <path fill="url(#b)" fill-rule="nonzero" d="M24 29a5 5 0 0 1 5-5h14a5 5 0 0 1 5 5v14a5 5 0 0 1-5 5H29a5 5 0 0 1-5-5V29z"/>
+        <path fill="url(#c)" fill-rule="nonzero" d="M52 27.333A3.333 3.333 0 0 1 55.333 24c.369 0 .667.299.667.667v22.666a.667.667 0 0 1-.667.667A3.333 3.333 0 0 1 52 44.667V27.333zM16 24.667c0-.369.299-.667.667-.667A3.333 3.333 0 0 1 20 27.333v17.334A3.333 3.333 0 0 1 16.667 48a.667.667 0 0 1-.667-.667V24.667z"/>
+        <path fill="#FFBA02" d="M36.75 35.12V30L33 37.6l2.25-.72V42L39 34.4z"/>
+    </g>
+</svg>
