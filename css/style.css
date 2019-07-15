@@ -676,7 +676,7 @@ footer a i {
     background: url(./../images/quiz.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px 0 60px 70px;
+    padding: 120px 0 60px 70px;
     color: #0a182b;
 } 
 .quiz-div .row {
@@ -697,7 +697,7 @@ footer a i {
 }
 .quiz h4 {
     font-family: Graphik-Semibold!important;
-    width: 85%;
+    width: 82%;
     font-size: 46px;
     font-weight: 600;
     line-height: 1.17;
@@ -705,7 +705,7 @@ footer a i {
     margin-bottom: 15px;
 }
 .quiz h6 {
-    width: 95%;
+    width: 85%;
     opacity: 0.57;
     font-size: 24px;
     font-weight: normal;
@@ -759,7 +759,7 @@ footer a i {
     color: #0a182b;
     width: 100%;
     padding: 10px 0;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     position: relative;
 }
 .btn.btn-options i {
@@ -785,6 +785,7 @@ footer a i {
     font-size: 21.6px;
     text-align: center;
     color: #0a182b;
+    margin-top: 10px;
 }
 .btn.btn-options.option-picked {
     background-color: #0a182b;
