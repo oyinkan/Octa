@@ -30,6 +30,9 @@
     .signup-getapp h6 {
         font-size: 40px;
     }
+    #savings-wrapper {
+        margin-bottom: -65px;
+    }
 }
 @media screen and (max-width: 575px) {
     .savings-box {
@@ -115,9 +118,6 @@
     .multiple p {
         margin-left: 0;
     }
-    #customer-support {
-        margin-top: 0;
-    }
     .address-details,
     .mt-90,
     .mt-60 {
@@ -163,6 +163,7 @@
 @media screen and (max-width: 850px) {
     #savings-wrapper h2 {
         font-size: 50px;
+        line-height: 1.00;
     }
     .signin-details {
         width: auto;
@@ -175,15 +176,8 @@
     }
 }
 @media screen and (min-width: 770px) and (max-width: 1200px) {
-    #savings-wrapper {
-        margin-bottom: 0;
-    }
     .multiple p {
         margin-left: 0;
-    }
-    #customer-support,
-    #personalized-services {
-        margin-top: -140px;
     }
 }
 @media screen and (min-width: 950px) and (max-width: 1200px) {
@@ -204,9 +198,6 @@
 }
 
 @media screen and (min-width: 770px) and (max-width: 1100px) {
-    /*.save-image {
-        left: 55px;
-    }*/
     .ml--35 {
         margin-left: -10px;
     }
@@ -225,17 +216,8 @@
         left: -10px;
     }
 }
-/*@media screen and (min-width: 770px) and (max-width: 1355px) {
-    .save-image {
-        bottom: 155px;
-        z-index: -1;
-    }
-}*/
 
 @media screen and (min-width: 1110px) and (max-width: 1355px) {
-    /*.save-image {
-        left: 70px;
-    }*/
     #savings-wrapper h2 {
         font-size: 57px;
     }
