@@ -530,6 +530,9 @@ footer a i {
     box-shadow: 0 20px 25px 0 rgba(178, 178, 178, 0.16);
     margin-bottom: 20px;
 }
+.about-box img {
+    width: 100%;
+}
 .about-box p {
     font-family: Graphik-Medium!important;
     font-size: 30px;
