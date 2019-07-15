@@ -92,10 +92,10 @@ nav ul li a {
     background: url(./../images/homepage.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    /*background-position: center;*/
     padding: 110px 0 150px 0;
     margin-top: -30px;
-    margin-bottom: -50px;
+    margin-bottom: -75px;
     color: #212121;
 }
 .container-fluid {
@@ -201,6 +201,10 @@ nav ul li a {
 }
 .ft-22 {
     font-size: 22px!important;
+}
+.whatwedo img {
+    width: 100%;
+    height: 540px;
 }
 .whatwedo .carousel-indicators {
     position: absolute;
