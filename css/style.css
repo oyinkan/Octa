@@ -475,7 +475,7 @@ footer a i {
 }
 .mission-wrapper {
     background-color: #f8f9fb;
-    padding: 50px 0;
+    padding: 60px 0;
 }
 .mission-wrapper h3 {   
     font-family: Graphik-Medium;
@@ -520,6 +520,8 @@ footer a i {
     font-family: Graphik-Medium;
     font-size: 40px;
     font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .mt-25 {
     margin-top: 25px;
