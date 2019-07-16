@@ -41,11 +41,13 @@
     octa-advantage h3 {
         font-size: 36px;
     }
-    .about-box img {
+    .about-box img,
+    #save-wrapper p {
         width: 100%;
     }
     .about p,
-    #motivation p {
+    #motivation p,
+    #get-the-app h6 {
         width: 90%;
     }
     .about h2 {
@@ -77,7 +79,9 @@
         right: 10px;
         top: 15px;
     }
-    .terms h1 {
+    .terms h1,
+    #save-wrapper h1,
+    .features-wrapper h2 {
         font-size: 45px;
     }
     .terms h3 {
@@ -85,7 +89,8 @@
     }
     .terms h5,
     .terms p,
-    .terms h6 {
+    .terms h6,
+    .btn.btn-create.btn-start {
         font-size: 18px;
     }
     .panel-default {
@@ -93,6 +98,9 @@
     }
     .testimonial-wrapper .carousel-control-prev {
         left: 33.5%!important;
+    }
+    #get-the-app h5 {
+        font-size: 40px;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -106,6 +114,9 @@
 @media screen and (max-width: 768px) {
     #savings-wrapper h5 {
         width: 85%;
+    }
+    #save-wrapper img {
+        margin-top: 0;
     }
     .relative-position {
         margin-top: 130px;
