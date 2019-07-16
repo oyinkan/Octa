@@ -223,7 +223,7 @@ nav ul li a {
     background-position: right;
 }
 .rent {
-    background: url(./../images/rent.png);
+    background: url(./../images/payrent.png);
     height: 481px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -291,6 +291,9 @@ nav ul li a {
     font-family: Graphik-Semibold;
     font-weight: 600;
     color: #080d14;
+}
+.whatwedo img {
+    width: 100%;
 }
 .whatwedo h5 {
     font-family: Graphik-Medium;
