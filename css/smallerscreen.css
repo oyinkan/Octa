@@ -19,6 +19,9 @@
     .form-inline .btn.btn-create {
         float: right;
     }
+    .whatwedo .carousel-indicators {
+        left: -48%!important;
+    }
 }
 @media screen and (max-width: 470px) {
     .signup-div .signup-details {
@@ -113,7 +116,7 @@
         font-size: 40px;
     }
     .whatwedo .carousel-indicators {
-        left: -60%!important;
+        left: -60%;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
