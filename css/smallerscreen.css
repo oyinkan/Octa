@@ -112,6 +112,9 @@
     #get-the-app h5 {
         font-size: 40px;
     }
+    .whatwedo .carousel-indicators {
+        left: -60%!important;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .savings-box {
@@ -189,10 +192,10 @@
         left: 35.5%;
     }
     .whatwedo .carousel-indicators {
-        left: -70%!important;
+        left: -67%;
     }
-    .whatwedo img {
-        height: 600px;
+    .whatwedo h3 {
+        font-size: 50px;
     }
 }
 @media screen and (max-width: 850px) {
@@ -223,7 +226,7 @@
         margin-left: 0;
     }
     .whatwedo .carousel-indicators {
-        left: -77%;
+        left: -75%;
     }
 }
 @media screen and (min-width: 950px) and (max-width: 1200px) {

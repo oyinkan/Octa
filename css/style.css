@@ -202,15 +202,40 @@ nav ul li a {
 .ft-22 {
     font-size: 22px!important;
 }
-.whatwedo img {
+/*.whatwedo img {
     width: 100%;
     height: 540px;
+}*/
+.vacation {
+    background: url(./../images/startavacation.png);
+    height: 481px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.rent {
+    background: url(./../images/rent.png);
+    height: 481px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.business {
+    background: url(./../images/startabusiness.png);
+    height: 481px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.education {
+    background: url(./../images/starteducation.png);
+    height: 481px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .whatwedo .carousel-indicators {
     position: absolute;
     right: 0;
-    bottom: 15%;
-    left: -82%;
+    bottom: 9%;
+    left: -80%;
     z-index: 15;
     display: -ms-flexbox;
     display: flex;
@@ -246,6 +271,7 @@ nav ul li a {
     font-weight: 300;
     line-height: 1;
     color: #212121;
+    /*width: 40%;*/
 }
 .whatwedo h3 span {
     font-family: Graphik-Semibold;
@@ -278,14 +304,14 @@ nav ul li a {
     line-height: 1.27;
     color: #212731;
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 .howitworks h6 {
     font-family: Graphik-Medium;
     font-size: 24px;
     font-weight: 500;
     color: #0a182b;
-    margin-top: 15px;
+    margin-top: 50px;
     margin-bottom: 15px;
 }
 .howitworks p {
