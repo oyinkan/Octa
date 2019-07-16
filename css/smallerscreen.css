@@ -13,14 +13,14 @@
     .btn.btn-create {
         float: right;
     }
+    .whatwedo .carousel-indicators {
+        left: -40%!important;
+    }
 }
 @media screen and (max-width: 387px) {
     .form-inline .btn.btn-login,
     .form-inline .btn.btn-create {
         float: right;
-    }
-    .whatwedo .carousel-indicators {
-        left: -40%!important;
     }
     .whatwedo h3 {
         font-size: 40px!important;
@@ -52,7 +52,11 @@
     #savings-wrapper {
         margin-bottom: -85px;
     }
+    .whatwedo #demo .carousel-indicators {
+        left: -54%;
+    }
 }
+
 @media screen and (max-width: 575px) {
     .savings-box {
         height: 290px!important;
@@ -128,6 +132,11 @@
     }
     footer h6 {
         margin-top: 20px;
+    }
+}
+@media screen and (min-width: 471px) and (max-width: 600px) {
+    .whatwedo #demo .carousel-indicators {
+        left: -60%;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
