@@ -22,6 +22,9 @@
     .whatwedo .carousel-indicators {
         left: -48%!important;
     }
+    .whatwedo h3 {
+        font-size: 40px;
+    }
 }
 @media screen and (max-width: 470px) {
     .signup-div .signup-details {

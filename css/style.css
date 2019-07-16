@@ -30,6 +30,14 @@
     url("webfont/Graphik-Medium.ttf") format("opentype"),
     url("webfont/Graphik-Medium.svg") format("svg");
 }
+@font-face {
+    font-family: "Graphik-Light";
+    src: url("webfont/Graphik-Light.eot");
+    src: 
+    url("webfont/Graphik-Light.woff") format("woff"),
+    url("webfont/Graphik-Light.ttf") format("opentype"),
+    url("webfont/Graphik-Light.svg") format("svg");
+}
 body {
     font-family: Graphik-Regular!important;
 }
@@ -266,12 +274,11 @@ nav ul li a {
     color: transparent;
 }
 .whatwedo h3 {
-    font-family: Graphik-light;
+    font-family: Graphik-Light;
     font-size: 64px;
     font-weight: 300;
     line-height: 1;
     color: #212121;
-    /*width: 40%;*/
 }
 .whatwedo h3 span {
     font-family: Graphik-Semibold;
