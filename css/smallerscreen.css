@@ -104,7 +104,8 @@
     .features-wrapper h2 {
         font-size: 45px;
     }
-    .terms h3 {
+    .terms h3,
+    #octa-advantage h5 {
         font-size: 24px;
     }
     .terms h5,
@@ -124,6 +125,9 @@
     }
     .whatwedo .carousel-indicators {
         left: -60%;
+    }
+    footer h6 {
+        margin-top: 20px;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
