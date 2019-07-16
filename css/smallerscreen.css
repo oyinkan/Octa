@@ -65,7 +65,9 @@
         float: left;
         margin-top: -39px;
     }
-    .signin-details h6 {
+    .signin-details h6,
+    #octa-advantage p.safely,
+    .howitworks h5 {
         width: auto;
     }
     .btn.btn-options {
@@ -88,6 +90,9 @@
     }
     .panel-default {
         padding: 10px;
+    }
+    .testimonial-wrapper .carousel-control-prev {
+        left: 33.5%!important;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -159,6 +164,15 @@
     .vision-div {
         margin-top: 15px;
     }
+    .testimonial-wrapper .carousel-control-prev {
+        left: 35.5%;
+    }
+    .whatwedo .carousel-indicators {
+        left: -70%!important;
+    }
+    .whatwedo img {
+        height: 600px;
+    }
 }
 @media screen and (max-width: 850px) {
     #savings-wrapper h2 {
@@ -178,6 +192,9 @@
 @media screen and (min-width: 770px) and (max-width: 1200px) {
     .multiple p {
         margin-left: 0;
+    }
+    .whatwedo .carousel-indicators {
+        left: -77%;
     }
 }
 @media screen and (min-width: 950px) and (max-width: 1200px) {
@@ -234,32 +251,31 @@
 }
 
 @media (min-width: 768px) {
-  /* show 3 items */
-  .carousel-inner .active,
-  .carousel-inner .active + .carousel-item,
-  .carousel-inner .active + .carousel-item + .carousel-item {
+  .testimonial-wrapper .carousel-inner .active,
+  .testimonial-wrapper .carousel-inner .active + .carousel-item,
+  .testimonial-wrapper .carousel-inner .active + .carousel-item + .carousel-item {
     display: block;
   }
 
-  .carousel-inner
+  .testimonial-wrapper .carousel-inner
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-  .carousel-inner
+  .testimonial-wrapper .carousel-inner
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
     + .carousel-item,
-  .carousel-inner
+  .testimonial-wrapper .carousel-inner
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
     + .carousel-item
     + .carousel-item {
     transition: none;
   }
 
-  .carousel-inner .carousel-item-next,
-  .carousel-inner .carousel-item-prev {
+  .testimonial-wrapper .carousel-inner .carousel-item-next,
+  .testimonial-wrapper .carousel-inner .carousel-item-prev {
     position: relative;
     transform: translate3d(0, 0, 0);
   }
 
-  .carousel-inner
+  .testimonial-wrapper .carousel-inner
     .active.carousel-item
     + .carousel-item
     + .carousel-item
@@ -272,11 +288,10 @@
     visibility: visible;
   }
 
-  /* left or forward direction */
-  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
-  .carousel-item-next.carousel-item-left + .carousel-item,
-  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
-  .carousel-item-next.carousel-item-left
+ .testimonial-wrapper  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .testimonial-wrapper .carousel-item-next.carousel-item-left + .carousel-item,
+  .testimonial-wrapper .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+  .testimonial-wrapper .carousel-item-next.carousel-item-left
     + .carousel-item
     + .carousel-item
     + .carousel-item {
@@ -285,8 +300,8 @@
     visibility: visible;
   }
 
-  /* farthest right hidden item must be abso position for animations */
-  .carousel-inner .carousel-item-prev.carousel-item-right {
+
+  .testimonial-wrapper .carousel-inner .carousel-item-prev.carousel-item-right {
     position: absolute;
     top: 0;
     left: 0;
@@ -295,11 +310,11 @@
     visibility: visible;
   }
 
-  /* right or prev direction */
-  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
-  .carousel-item-prev.carousel-item-right + .carousel-item,
-  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
-  .carousel-item-prev.carousel-item-right
+  
+  .testimonial-wrapper .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .testimonial-wrapper .carousel-item-prev.carousel-item-right + .carousel-item,
+  .testimonial-wrapper .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+  .testimonial-wrapper .carousel-item-prev.carousel-item-right
     + .carousel-item
     + .carousel-item
     + .carousel-item {
