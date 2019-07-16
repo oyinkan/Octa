@@ -139,6 +139,18 @@
     }
 }
 @media screen and (max-width: 768px) {
+    .vacation,
+    .rent,
+    .business,
+    .education {
+        display: block;
+    }
+    .whatwedo img {
+        display: none;
+    }
+    .whatwedo .carousel-indicators {
+        bottom: 9%;
+    }
     #savings-wrapper h5 {
         width: 85%;
     }
@@ -236,6 +248,18 @@
     .form-inline {
         display: block;
         float: right;
+    }
+}
+@media screen and (min-width: 770px) and (max-width: 1050px) {
+    .whatwedo h3 {
+        font-size: 40px;
+    }
+    .whatwedo h5 {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .whatwedo .carousel-indicators {
+        bottom: 9%;
     }
 }
 @media screen and (min-width: 770px) and (max-width: 1200px) {
