@@ -85,7 +85,8 @@
     }
     .signin-details h6,
     #octa-advantage p,
-    .howitworks h5 {
+    .howitworks h5,
+    #octa-advantage p.safely {
         width: auto;
     }
     .btn.btn-options {
