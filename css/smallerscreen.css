@@ -20,10 +20,13 @@
         float: right;
     }
     .whatwedo .carousel-indicators {
-        left: -48%!important;
+        left: -40%!important;
     }
     .whatwedo h3 {
-        font-size: 40px;
+        font-size: 40px!important;
+    }
+    .howitworks p {
+        width: auto;
     }
 }
 @media screen and (max-width: 470px) {
@@ -203,6 +206,9 @@
     }
     .whatwedo h3 {
         font-size: 50px;
+    }
+    .howitworks p {
+        margin-bottom: 40px;
     }
 }
 @media screen and (max-width: 850px) {
