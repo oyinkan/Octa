@@ -12,6 +12,7 @@
     <link href="css/smallerscreen.css" rel="stylesheet">
     <link href="css/animate-min.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/aos.css" />
     <style>
         header {
             box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.03);
@@ -931,7 +932,7 @@
         </section>
     </article>
 
-    <footer>
+    <footer data-aos="zoom-in">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-3">
@@ -996,6 +997,23 @@
             </div>
         </div>
     </footer>
+    <script src="js/highlight.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
+
+    <script>
+        hljs.initHighlightingOnLoad();
+        $('.hero__scroll').on('click', function(e) {
+            $('html, body').animate({
+                scrollTop: $(window).height()
+            }, 1200);
+        });
+    </script>
 
 
 

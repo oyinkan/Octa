@@ -12,6 +12,7 @@
     <link href="css/smallerscreen.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/aos.css" />
     <style>
         header {
             box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.03);
@@ -55,7 +56,7 @@
     </header>
     
     <article>
-        <section id="contact">
+        <section id="contact" data-aos="slide-down">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
@@ -67,7 +68,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact-box">
+        <section class="contact-box" data-aos="slide-up">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
@@ -94,7 +95,7 @@
                                 <label for="message">Your message</label>
                                 <textarea class="form-control" rows="5" id="message" placeholder="Enter your message"></textarea>
                             </div>
-                            <button class="btn btn-send">Send a message</button>
+                            <button class="btn btn-send hvr-shrink">Send a message</button>
                         </form>
                     </div>
                     <div class="col-lg-6 col-md-6">
@@ -129,12 +130,12 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section data-aos="fade-down">
             <img src="images/map.png" class="img-fluid" alt="A map">
         </section>
     </article>
 
-   <footer>
+   <footer data-aos="zoom-in">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-3">
@@ -207,5 +208,22 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/accordion.js"></script>
+    <script src="js/highlight.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
+
+    <script>
+        hljs.initHighlightingOnLoad();
+        $('.hero__scroll').on('click', function(e) {
+            $('html, body').animate({
+                scrollTop: $(window).height()
+            }, 1200);
+        });
+    </script>
 </body>
 </html>

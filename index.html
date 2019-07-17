@@ -10,6 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet">
     <link href="css/smallerscreen.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/aos.css" />
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">
 </head>
@@ -48,7 +49,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-7">
-                        <div>
+                        <div data-aos="fade-up">
                             <h2>Hi, we are <span>Octa</span></h2>
                             <p>A fast-growing savings and investment community.</p>
                             <div class="mt-60">
@@ -111,7 +112,7 @@
                 </div>
             </div>
         </section>
-        <section id="octa-advantage">
+        <section id="octa-advantage" data-aos="fade-down">
             <div class="container-fluid">
                 <h2 class="text-center">Why Octa?</h2>
                 <div class="row">
@@ -182,7 +183,7 @@
                 </div>
             </div>
         </section>
-        <section class="howitworks">
+        <section class="howitworks" data-aos="zoom-in">
             <div class="container-fluid">
                 <div class="text-center">
                     <h3>How It Works</h3>
@@ -213,7 +214,6 @@
                 </div>
             </div>
         </section>
-    
         <section class="testimonial-wrapper">
             <div class="container-fluid">
                 <div class="testimonial-header text-center">
@@ -283,7 +283,7 @@
             </div>
         </section>
         <section class="container-fluid">
-            <div id="get-the-app">
+            <div id="get-the-app" data-aos="flip-up">
                 <div class="row">
                     <div class="col-lg-6 col-md-6"></div>
                     <div class="col-lg-6 col-md-6">
@@ -301,7 +301,7 @@
         </section>
     </article>
 
-    <footer>
+    <footer data-aos="zoom-in">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-3">
@@ -372,5 +372,22 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="js/highlight.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
+
+    <script>
+        hljs.initHighlightingOnLoad();
+        $('.hero__scroll').on('click', function(e) {
+            $('html, body').animate({
+                scrollTop: $(window).height()
+            }, 1200);
+        });
+    </script>
 </body>
 </html>
