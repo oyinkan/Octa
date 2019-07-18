@@ -218,7 +218,8 @@
     .btn.btn-share {
         font-size: 15px;
     }
-    .panel-text {
+    .panel-text,
+    .howitworks h5 {
         width: auto;
     }
     .vision-div {
@@ -235,6 +236,11 @@
     }
     .howitworks p {
         margin-bottom: 40px;
+    }
+    #get-the-app {
+        background: url(./../images/get-the-octa-savings-and-investment-app.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 @media screen and (max-width: 850px) {
