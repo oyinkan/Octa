@@ -97,7 +97,7 @@ nav ul li a {
 
 /* index page */
 #savings-wrapper {
-    background: url(./../images/homepage.png);
+    background: url(./../images/save-online.png);
     background-repeat: no-repeat;
     background-size: cover;
     /*background-position: center;*/
@@ -109,7 +109,7 @@ nav ul li a {
 .container-fluid {
     width: 90%;
 }
-#savings-wrapper h2 {
+#savings-wrapper h1 {
     font-family: Graphik-Medium;
     font-size: 64px;
     font-weight: 500;
@@ -426,7 +426,7 @@ nav ul li a {
     margin-right: 10px;
 }
 #get-the-app {
-    background: url(./../images/gettheapp.png);
+    background: url(./../images/get-the-octa-savings-and-investment-app.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -496,12 +496,12 @@ footer a i {
 
 /* About Page */
 #about-us {
-    background: url(./../images/about.png);
+    background: url(./../images/about/about-us.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 80px 0 110px 0;
 }
-.about h2 {
+.about h1 {
     font-family: Graphik-Semibold!important;
     font-size: 64px;
     font-weight: 600;
@@ -641,13 +641,13 @@ footer a i {
 
 /* contact page */
 #contact {
-    background: url(./../images/contact.png);
+    background: url(./../images/contact-page.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px 0;
     color: #212731;
 }
-#contact h5 {
+#contact h1 {
     font-family: Graphik-Medium!important;
     font-size: 64px;
     font-weight: 500;
@@ -738,7 +738,7 @@ footer a i {
     color: #ffba02;
     padding: .25em 0.8em;
 }
-.quiz h4 {
+.quiz h1 {
     font-family: Graphik-Semibold!important;
     width: 82%;
     font-size: 46px;
@@ -754,7 +754,7 @@ footer a i {
     font-weight: normal;
     line-height: 1.33;
 }
-.quiz h5 {
+.quiz h2 {
     font-family: Graphik-Semibold!important;
     margin-top: 120px;
     font-size: 43.2px;
@@ -1046,7 +1046,7 @@ a:hover {
 
 /* terms page */
 .terms {
-    padding: 40px 0 20px 0;
+    padding: 80px 0 20px 0;
     color: #2b292d; 
 }
 .terms h1 {
@@ -1056,7 +1056,7 @@ a:hover {
     line-height: 1.04;
     letter-spacing: -0.24px;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 .terms h3 {
     font-family: Graphik-Bold!important;

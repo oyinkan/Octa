@@ -1,5 +1,6 @@
 @media screen and (max-width: 350px) {
-    #savings-wrapper h2 {
+    #savings-wrapper h1,
+    .about h1 {
         width: auto;
         font-size: 40px!important;
     }
@@ -237,7 +238,8 @@
     }
 }
 @media screen and (max-width: 850px) {
-    #savings-wrapper h2 {
+    #savings-wrapper h1,
+    .about h1 {
         font-size: 50px;
         line-height: 1.00;
     }
@@ -317,7 +319,8 @@
 }
 
 @media screen and (min-width: 1110px) and (max-width: 1355px) {
-    #savings-wrapper h2 {
+    #savings-wrapper h1,
+    .about h1 {
         font-size: 57px;
     }
     #savings-wrapper p {
@@ -413,19 +416,12 @@
     .panel-text {        
         left: -10px;
     }
-    /*.panel-title span {
-        top: 0;
-    }*/
-
 }
 @media screen and (min-width: 580px) and (max-width: 715px) {
     .panel-title span,
     .panel-text {        
         left: -10px;
     }
-    /*.panel-title span {
-        top: 0;
-    }*/
 }
 
 
