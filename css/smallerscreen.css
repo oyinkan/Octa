@@ -23,7 +23,7 @@
     .form-inline .btn.btn-create {
         float: right;
     }
-    .whatwedo h3 {
+    .whatwedo h2 {
         font-size: 40px!important;
     }
     .howitworks p {
@@ -66,7 +66,7 @@
         font-size: 36px;
     }
     .about-box img,
-    #save-wrapper p {
+    #save-wrapper h2 {
         width: 100%;
     }
     .about p,
@@ -231,7 +231,7 @@
     .whatwedo .carousel-indicators {
         left: -67%;
     }
-    .whatwedo h3 {
+    .whatwedo h2 {
         font-size: 50px;
     }
     .howitworks p {
@@ -268,7 +268,7 @@
     }
 }
 @media screen and (min-width: 770px) and (max-width: 1050px) {
-    .whatwedo h3 {
+    .whatwedo h2 {
         font-size: 40px;
     }
     .whatwedo h5 {
@@ -329,7 +329,7 @@
     .about h1 {
         font-size: 57px;
     }
-    #savings-wrapper p {
+    #savings-wrapper h2 {
         width: 90%;
     }
     .signin-details h6 {

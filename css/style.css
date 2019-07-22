@@ -119,7 +119,7 @@ nav ul li a {
 #savings-wrapper h2 span {
     color: #f7b500;
 }
-#savings-wrapper p {
+#savings-wrapper h2 {
     font-size: 20px;
     line-height: 1.6;
     margin-top: 30px;
@@ -280,14 +280,14 @@ nav ul li a {
     text-align: left;
     color: transparent;
 }
-.whatwedo h3 {
+.whatwedo h2 {
     font-family: Graphik-Light;
     font-size: 64px;
     font-weight: 300;
     line-height: 1;
     color: #212121;
 }
-.whatwedo h3 span {
+.whatwedo h2 span {
     font-family: Graphik-Semibold;
     font-weight: 600;
     color: #080d14;
@@ -307,7 +307,7 @@ nav ul li a {
     padding: 60px 0;
     text-align: center;
 }
-.howitworks h3 {
+.howitworks h2 {
     font-family: Graphik-Medium;
     font-size: 48px;
     font-weight: 500;
@@ -1102,7 +1102,7 @@ a:hover {
     color: #190f0c;
     margin-top: 20px;
 }
-#save-wrapper p {
+#save-wrapper h2 {
     width: 77%;
     font-size: 20px;
     line-height: 1.75;
