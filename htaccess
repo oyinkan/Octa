@@ -1,0 +1,20 @@
+RewriteEngine On 
+
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^octa\.ng$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.octa\.ng$
+RewriteRule ^STD2\/?(.*)$ "https\:\/\/octa\.ng\/STD2\.0$1" [R=301,L]
+RewriteCond %{HTTP_HOST} ^octa\.ng$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.octa\.ng$
+RewriteRule ^std2$ "https\:\/\/octa\.ng\/STD2\.0" [R=301,L]
+RewriteCond %{HTTP_HOST} ^octa\.ng$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.octa\.ng$
+RewriteRule ^std2\.0\/?(.*)$ "https\:\/\/octa\.ng\/STD2\.0$1" [R=301,L]
