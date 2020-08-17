@@ -18,13 +18,44 @@
         header {
             box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.03);
         }
+        #save-wrapper {
+            background-color: #0a182b;
+            padding-bottom: 0;
+            position: relative;
+            z-index: 1;
+        }
+        #save-wrapper h1 {
+            color: #fff;
+        }
+        #save-wrapper p {
+            font-size: 24px;
+            line-height: 1.42;
+            color: #fff;
+            margin: 30px 0 40px 0;
+        }
+        #save-wrapper img {
+            margin-top: 70px;
+        }
+        .features-wrapper {
+            background: url(images/invest/invest-wrapper.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
         .testimonial-wrapper {
             margin-top: 0;
             padding-top: 120px;
         }
-    }
-    </style>
 
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+            article .btn.btn-create.btn-start {
+                font-size: 18px;
+            }
+            .invest-features .btn.btn-create.btn-start {
+                padding: 10px 25px;
+            }
+        }
+    </style>
 
     <!-- Facebook Pixel Code -->
 <script>
@@ -76,10 +107,10 @@ twq('track','PageView');
 
               <div class="collapse navbar-collapse" id="navb">
                 <ul class="navbar-nav mx-auto">
-                  <li class="nav-item active">
+                  <li class="nav-item">
                     <a class="nav-link" href="save.html">Save</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item active">
                     <a class="nav-link" href="invest.html">Invest</a>
                   </li>
                   <li class="nav-item">
@@ -100,67 +131,57 @@ twq('track','PageView');
     <article>
         <section id="save-wrapper">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div data-aos="fade-up">
-                            <h1>Automate your Savings and Reach your Financial Goals</h1>
-                            <h2>Start a disciplined approach to growing your finance. Set aside funds right away, it takes less than 2 minutes.</h2>
-                            <a href="https://octa.ng/app/#sign-up" class="btn btn-create btn-start">Start Saving Now</a>
-                        </div>  
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div>
-                            <img src="images/save-online-octa.png" class="img-fluid" alt="Save money online">
-                        </div>
-                    </div>
+                <div class="text-center">
+                    <div data-aos="fade-up">
+                        <h1>You don’t have to wait until you have millions before you invest </h1>
+                        <p>You can invest with as little as N2000! <br>Sit back and watch your money grow.<br>Starting an investment takes less than 3 minutes with Octa.</p>
+                        <a href="https://octa.ng/app/#sign-up" class="btn btn-create btn-start">Start Investing Now</a>
+                        <img src="images/invest/invest.png" class="img-fluid" alt="invest">
+                    </div>  
                 </div>
             </div>
         </section>
         <section class="features-wrapper" data-aos="fade-down">
+            <img src="images/invest/oval-two.svg" class="img-fluid oval-two" alt="">
+            <img src="images/invest/oval.svg" class="img-fluid oval" alt="">
             <div class="container-fluid">
-                <h2 class="text-center">Explore our Features</h2>
                 <div class="row">
                     <div class="col-lg-4 col-md-4">
-                        <div>
-                            <img src="images/save-money-online.png" class="img-fluid" alt="Save money online">
+                        <div class="invest-features mt-200">
+                            <h4>Features</h4>
+                            <p>Here are the features that makes Octa  investments. <br>Earn up to 18% returns on your investment.</p>
+                            <a href="https://octa.ng/app/#sign-up" class="btn btn-create btn-start">Start Investing Now</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="mt-35">
-                            <img src="images/auto-save.svg" class="img-fluid auto" alt="Automating your savings online">
+                        <div class="mt-35 invest-wrapper">
+                            <img src="images/invest/advisory.svg" class="img-fluid" alt="Automating your savings online">
                             <div>
-                                <h5>Auto Save</h5>
-                                <p>Octa takes the stress off you and keeps you disciplined by automating your saving.</p>
+                                <h5>Invest in Bits</h5>
+                                <p>Just as Rome was not built in a day, you can invest what you have and be rest assured you’ll achieve growth on your investments.</p>
                             </div>
                         </div><br>
-                        <div class="mt-35">
-                            <img src="images/free-withdrawal.svg" class="img-fluid auto" alt="Free withdrawal from savings online">
+                        <div class="mt-35 invest-wrapper">
+                            <img src="images/invest/advisory.svg" class="img-fluid" alt="Saving goals and tracking them in your savings account">
                             <div>
-                                <h5>Free Withdrawals</h5>
-                                <p>You can withdraw any time at no cost (Zero Charge) through our send money feature. </p>
-                            </div>
-                        </div><br>
-                        <div class="mt-35">
-                            <img src="images/savings-notification.svg" class="img-fluid auto" alt="Receive notifications from your online savings account">
-                            <div>
-                                <h5>Real Time Notifications</h5>
-                                <p>See how far and well your savings are going with regular notifications.</p>
+                                <h5>Relatable Advisory</h5>
+                                <p>Get free advice to help you scale that finance hurdle. Read our blog, reach out on social media or attend any of our OctaMMc to stay above the curve.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="mt-35">
-                            <img src="images/save-goals.svg" class="img-fluid auto" alt="Saving goals and tracking them in your savings account">
+                        <div class="mt-35 invest-wrapper">
+                            <img src="images/invest/open.svg" class="img-fluid" alt="Free withdrawal from savings online">
                             <div>
-                                <h5>Multiple Goals</h5>
-                                <p>Have more than one goal in mind? No worries, Octa allows you create as many goals as you want. You can save and track each goal uniquely.</p>
+                                <h5>We are Open</h5>
+                                <p>It doesn’t matter if you are employed, self-employed or a student, we are committed to partnering with you to achieve those financial targets. </p>
                             </div>
-                        </div>
-                        <div class="mt-60">
-                            <img src="images/savings-interest.svg" class="img-fluid auto" alt="Higher interest rate on your savings account">
+                        </div><br>
+                        <div class="mt-35 invest-wrapper">
+                            <img src="images/invest/progress.svg" class="img-fluid" alt="Higher interest rate on your savings account">
                             <div>
-                                <h5>Higher Interest Rate</h5>
-                                <p>Savings in Octa enjoy competitive interest rates at up to 12%.</p>
+                                <h5>Track Your Progress</h5>
+                                <p>Watch your money grow, plough back your returns to enjoy compound interest or withdraw using our wallet feature.</p>
                             </div>
                         </div>
                     </div>

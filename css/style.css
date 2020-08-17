@@ -52,14 +52,14 @@ nav ul li a {
     color: #fff;
     opacity: 0.58;
 }
-/*.navbar .navbar-nav .nav-link {
+.navbar .navbar-nav .nav-link {
     padding-left: 30px;
     padding-right: 30px;  
-}*/
-.navbar .navbar-nav .nav-link {
+}
+/*.navbar .navbar-nav .nav-link {
     padding-left: 60px;
     padding-right: 60px;  
-}
+}*/
 .navbar-dark .navbar-nav .active>.nav-link, 
 .navbar-dark .navbar-nav .nav-link.active, 
 .navbar-dark .navbar-nav .nav-link.show, 
@@ -1149,4 +1149,47 @@ a:hover {
 .features-wrapper .auto {
     margin-left: -20px;
     margin-bottom: -25px;
+}
+
+/* invest page */
+
+.invest-features h4 {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1;
+    color: #000;
+    margin-bottom: 15px;
+}
+.invest-features p {
+    width: 85%;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #5f5f5f;
+    margin-bottom: 35px;
+}
+.invest-features .btn.btn-create.btn-start {
+    padding: 10px 30px;
+}
+.mt-200 {
+    margin-top: 200px;
+}
+.invest-wrapper {
+    height: 350px;
+    border-radius: 6px;
+    box-shadow: 0 40px 50px 0 rgba(178, 178, 178, 0.16);
+    background-color: #fff;
+    padding: 3rem 2rem;
+}
+.invest-wrapper p {
+    width: auto;
+}
+.oval-two {
+    position: absolute;
+    left: 40px;
+    top: -75px;
+}
+.oval {
+    position: absolute;
+    left: 200px;
+    top: 140px;
 }
